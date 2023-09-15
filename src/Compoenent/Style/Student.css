@@ -1,0 +1,41 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.Addstu
+{
+    display: flex;
+    justify-content: end;
+    margin:3% 8% 0 0;
+}
+.Addstu button{
+    font-size: x-large;
+    height: 4rem;
+    width: 13rem;
+    border-radius: 2rem;
+    background-image: linear-gradient(to right top, #dfe0e0, #bedcde, #99d7e0, #6cd1e4, #12cbeb);
+    border: none;
+    color: white;
+}
+
+.table-align table{
+    margin: 2rem auto 0 auto;
+    text-align: center;
+    font-size: x-large;
+    line-height: 60px;
+}
+.tlink
+{
+    text-decoration: none;
+    color: black;
+}
+.tlink:hover
+{
+    color: white;
+}
+
+td{
+    border-bottom: 1px solid;
+    padding-left: 5rem;
+}

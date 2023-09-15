@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+form{
+    margin: 8rem 0 0 0; 
+}
+label{
+    font-size: x-large;
+    font-weight: bold;
+    margin-right: 12px;
+}
+input{
+    height: 3rem;
+    width: 13rem;
+    border-radius: 1rem;
+    background-color: rgb(226, 239, 240);
+    text-align: center;
+    font-size: large;
+    margin: 0 10px 50px 0;
+}
+input::placeholder{
+    text-align: center;
+}
+
+.form-btn{
+   display: flex;
+   justify-content: end;
+   padding:0 5rem 0 0;
+   gap: 10px;
+}
+.form-btn button{
+    width: 13rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    background-color: rgb(226, 239, 240);
+}
